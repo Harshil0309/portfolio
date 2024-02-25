@@ -1,0 +1,27 @@
+
+.main{
+    align-self: center;
+    width: 500px;
+    height:150px;
+    color: grey !important;
+    text-align: center;
+    /* margin-left: 60%; */
+    padding-right: 100px;
+    margin-right: 150px;
+}
+
+.img{
+    flex: 1;
+    color: red;
+    max-width: 20px;
+    height:50px;
+    padding-left: 350px;
+    padding-top: 150px;
+    background-image: url(../../../public/profile3-removebg-preview.png);
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.box{
+    margin-top: 120px;
+}

@@ -1,0 +1,38 @@
+.portfolio{
+    border-radius: 40px !important;
+}
+.portfolio:hover {
+    background-color: grey !important;
+  }
+.skill{
+    border-radius: 40px !important;
+    padding-right: 5px;
+}
+.skill:hover{
+    background-color: grey !important;
+}
+.experience{
+    border-radius: 40px !important;
+}
+
+.experience:hover{
+    background-color: grey !important;
+}
+.projects{
+    border-radius: 40px !important;
+}
+.projects:hover{
+    background-color: grey !important;
+}
+.contact{
+    border-radius: 40px !important;
+}
+.contact:hover{
+    background-color: grey !important;
+}
+.download{
+    border-radius: 40px !important;
+}
+.download:hover{
+    background-color: green !important;
+}
