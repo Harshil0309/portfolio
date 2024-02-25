@@ -1,0 +1,13 @@
+.main-page{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.error{
+    /* border: 1px solid red; */
+    color: peachpuff;
+    width: 100px;
+    text-align: center;
+    /* margin-top: 50%; */
+    margin-left: 50%;
+}
