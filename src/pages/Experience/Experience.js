@@ -2,10 +2,11 @@ import React from "react";
 import NavBar from "../../components/NavBar";
 import { workHistory } from "./Experience.config";
 import "./Experience.css";
+import Device from "../../utils/Device";
 const Experience = () => {
   return (
     <div style={{ backgroundColor: "black", minHeight: "100vh" }}>
-      <NavBar />
+      <Device />
       <div className="work">
         <h2 style={{color:'white',textAlign:'center'}}>Work History</h2>
         <ul className="work-list">

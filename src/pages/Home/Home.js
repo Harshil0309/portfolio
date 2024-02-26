@@ -1,11 +1,12 @@
 import "./Home.css";
 import React from "react";
 import NavBar from "../../components/NavBar";
+import Device from "../../utils/Device.js"
 
 const Home = () => {
   return (
     <div style={{ backgroundColor: "black", minHeight: "100vh" }}>
-      <NavBar />
+      <Device />
       <div className="box" style={{ display: "flex" }}>
         <div className="img"></div>
         <div style={{ flex: "1" }} className="main">

@@ -1,20 +1,24 @@
 import { useMediaQuery } from "react-responsive";
 import "./Device.css";
-const Device = (Home) => {
+import NavBar2 from "../components/NavBar2/NavBar2";
+import NavBar from "../components/NavBar";
+const Device = () => {
   const Mobile = useMediaQuery({
     query: "(max-width:900px)",
   });
 
   if (Mobile) {
-    return (
-      <div className="main-page">
-        <p className="error">
-          Coming Soon for Mobile. Until then use Desktop!!
-        </p>
-      </div>
-    );
+    // return (
+    //   <div className="main-page">
+    //     <p className="error">
+    //       Coming Soon for Mobile. Until then use Desktop!!
+    //     </p>
+    //   </div>
+    // );
+
+    return <NavBar2/>
   }
-  return <Home />;
+  return <NavBar />;
 };
 
 export default Device;

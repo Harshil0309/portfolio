@@ -1,11 +1,12 @@
 import { techStack } from "./Skills.config";
 import "./Skills.css";
 import NavBar from "../../components/NavBar";
+import Device from "../../utils/Device";
 
 const Skills = () => {
   return (
     <div style={{ backgroundColor: "black", minHeight: "100vh" }}>
-      <NavBar />
+     <Device />
 
       <div className="tech-stack-list">
         <h2 style={{color:'white',textAlign:'center'}}>Skills</h2>

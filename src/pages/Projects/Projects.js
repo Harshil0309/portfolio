@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../../components/NavBar";
 import { projects } from "./Projects.config";
 import "./Projects.css";
+import Device from "../../utils/Device";
 const Project = () => {
   if (!Array.isArray(projects)) {
     console.log("Projects is not an array:", projects);
@@ -9,7 +10,7 @@ const Project = () => {
   }
   return (
     <div style={{ backgroundColor: "black", minHeight: "100vh" }}>
-      <NavBar />
+       <Device />
       <div className="project-main">
         <h2 style={{ color: "white", textAlign: "center" }}>Projects</h2>
         <ul className="project-list">
