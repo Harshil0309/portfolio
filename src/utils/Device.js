@@ -8,15 +8,15 @@ const Device = () => {
   });
 
   if (Mobile) {
-    return (
-      <div className="main-page">
-        <p className="error">
-          Coming Soon for Mobile. Until then use Desktop!!
-        </p>
-      </div>
-    );
+    // return (
+    //   <div className="main-page">
+    //     <p className="error">
+    //       Coming Soon for Mobile. Until then use Desktop!!
+    //     </p>
+    //   </div>
+    // );
 
-    // return <NavBar2/>
+    return <NavBar2/>
   }
   return <NavBar />;
 };
