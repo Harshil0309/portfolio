@@ -30,3 +30,15 @@
     /* border: 2px solid; */
     /* transition: font-size 0.4s; */
   }
+
+  @media (max-width:900px){
+    .list{
+      /* border: 1px solid red; */
+      margin-left: 7rem;
+      margin-top: 3rem;
+      
+    }
+    .skill-page{
+      overflow: hidden;
+    }
+  }

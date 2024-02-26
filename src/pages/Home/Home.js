@@ -9,13 +9,14 @@ const Home = () => {
       <Device />
       <div className="box">
         <div className="img" />
-        <div style={{ flex: "1" }} className="main">
+        <div  className="main">
           <h1 className="name">Harshil Gupta</h1>
           <p>
             I'm a full-stack developer specialised in both frontend and backend
             development for scalable web apps.I have made a variety of MERN
             Stack Applications.
           </p>
+          <img className="mobile-img"/>
         </div>
       </div>
     </div>

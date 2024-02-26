@@ -22,3 +22,18 @@
     border: 1px solid peachpuff;
     color: peachpuff;
 }
+
+@media (max-width:900px){
+  .social-links{
+    /* border: 1px solid red; */
+    margin-left: 0px;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 200px;
+    margin-left: 110px;
+  }
+  .social-links-item{
+    width: 70px;
+    text-align: center;
+  }
+}

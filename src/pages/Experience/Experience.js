@@ -5,7 +5,7 @@ import "./Experience.css";
 import Device from "../../utils/Device";
 const Experience = () => {
   return (
-    <div style={{ backgroundColor: "black", minHeight: "100vh" }}>
+    <div className="exp-page" style={{ backgroundColor: "black", minHeight: "100vh" }}>
       <Device />
       <div className="work">
         <h2 style={{color:'white',textAlign:'center'}}>Work History</h2>

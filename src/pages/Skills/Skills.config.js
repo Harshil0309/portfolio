@@ -1,6 +1,6 @@
 export const techStack = [
   "React",
-  "MUI",
+  "MaterialUI",
   "Redux",
   "Node",
   "Express",

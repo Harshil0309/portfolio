@@ -9,7 +9,7 @@ const Project = () => {
     return null; // or render an error message
   }
   return (
-    <div style={{ backgroundColor: "black", minHeight: "100vh" }}>
+    <div className="proj-page" style={{ backgroundColor: "black", minHeight: "100vh" }}>
        <Device />
       <div className="project-main">
         <h2 style={{ color: "white", textAlign: "center" }}>Projects</h2>

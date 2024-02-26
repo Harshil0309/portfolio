@@ -40,3 +40,24 @@
     border: 1px solid peachpuff;
   }
   
+@media (max-width:900px){
+    .project-list-item{
+        /* border: 1px solid red; */
+        padding-right: 15px;
+    }
+    .proj-page{
+        overflow: hidden;
+    }
+    .project-links{
+        flex-direction: column;
+        /* border: 1px solid red; */
+        padding: 0px;
+        translate: -15px;
+    }
+    .project-list{
+        /* border: 1px solid red; */
+        padding-right: 30px;
+        padding-left: 20px;
+
+    }
+}

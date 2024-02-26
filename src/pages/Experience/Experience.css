@@ -16,3 +16,18 @@
     border: 2px solid peachpuff;
 }
 
+@media (max-width:900px){
+    .exp-page{
+        overflow: hidden;
+    }
+    .work-list{
+        /* border: 1px solid red; */
+        padding: 0px;
+    }
+    .list-item{
+        /* border: 1px solid blue; */
+        width: 80%;
+        margin-left: 35px;
+    }
+}
+

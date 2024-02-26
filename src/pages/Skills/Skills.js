@@ -5,7 +5,7 @@ import Device from "../../utils/Device";
 
 const Skills = () => {
   return (
-    <div style={{ backgroundColor: "black", minHeight: "100vh" }}>
+    <div className="skill-page" style={{ backgroundColor: "black", minHeight: "100vh" }}>
      <Device />
 
       <div className="tech-stack-list">
