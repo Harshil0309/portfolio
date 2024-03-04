@@ -31,9 +31,10 @@
     }
     .list-item{
         /* border: 1px solid blue; */
-        width: 80%;
+        width: 90%;
         /* margin-left: 35px; */
         padding-right: 10px;
+        margin-right: 5px;
     }
 }
 

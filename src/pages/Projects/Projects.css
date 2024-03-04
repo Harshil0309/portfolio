@@ -17,7 +17,7 @@
 }
 .desc-list{
     color: white;
-    margin-left: 20px;
+    margin-left: 13px;
 }
 .skills{
     margin-left: 20px;
@@ -48,7 +48,9 @@
    
     .project-list-item{
         /* border: 1px solid red; */
-        padding-right: 15px;
+        padding-right: 10px;
+        /* margin-right: 5px    ; */
+        width: 90%;
     }
     .proj-page{
         overflow: hidden;
