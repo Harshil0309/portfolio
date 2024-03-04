@@ -45,6 +45,10 @@
   }
   
 @media (max-width:900px){
+    h2{
+        /* border: 1px solid red; */
+        margin-left: 10%;
+    }
     .project-list-item{
         /* border: 1px solid red; */
         padding-right: 15px;

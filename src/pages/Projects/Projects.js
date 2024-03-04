@@ -9,10 +9,20 @@ const Project = () => {
     return null; // or render an error message
   }
   return (
-    <div className="proj-page" style={{ backgroundColor: "black", minHeight: "100vh" }}>
-       <Device />
+    <div
+      className="proj-page"
+      style={{ backgroundColor: "black", minHeight: "100vh" }}
+    >
+      <Device />
       <div className="project-main">
-        <h2 style={{ color: "white", textAlign: "center" }}>Projects</h2>
+        <h2
+          style={{
+            color: "white",
+            textAlign: "center",
+          }}
+        >
+          Projects
+        </h2>
         <ul className="project-list">
           {projects.map((project, index) => {
             const { title, descriptions, skills, github, live } = project;
@@ -30,10 +40,20 @@ const Project = () => {
                 </ul>
                 <h4 className="skills">Skills- {skills}</h4>
                 <div className="project-links">
-                  <a className="link-item" rel="noreferrer" target="_blank" href={github}>
+                  <a
+                    className="link-item"
+                    rel="noreferrer"
+                    target="_blank"
+                    href={github}
+                  >
                     Github
                   </a>
-                  <a className="link-item" rel="noreferrer" target="_blank" href={live}>
+                  <a
+                    className="link-item"
+                    rel="noreferrer"
+                    target="_blank"
+                    href={live}
+                  >
                     Live
                   </a>
                 </div>
