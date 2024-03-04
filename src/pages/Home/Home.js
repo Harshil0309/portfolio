@@ -187,7 +187,7 @@ const Home = () => {
         style={{ backgroundColor: "black" }}
       >
         <div className="project-main">
-          <h2
+          <h2 className="proj-head"
             style={{ color: "white", textAlign: "center", paddingTop: "40px" }}
           >
             Projects
