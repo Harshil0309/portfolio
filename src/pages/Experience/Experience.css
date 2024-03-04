@@ -1,9 +1,17 @@
-
+.work-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding-right: 20px;
+}
 .list-item{
     border: 2px solid grey;
     color: white;
     width: 50%;
-    margin-left: 25%;
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
     margin-top: 30px;
     list-style-type:none;
 
@@ -19,15 +27,13 @@
 @media (max-width:900px){
     .exp-page{
         overflow: hidden;
-    }
-    .work-list{
-        /* border: 1px solid red; */
-        padding: 0px;
+        padding-right: 10px;
     }
     .list-item{
         /* border: 1px solid blue; */
         width: 80%;
-        margin-left: 35px;
+        /* margin-left: 35px; */
+        padding-right: 10px;
     }
 }
 

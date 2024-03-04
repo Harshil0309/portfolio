@@ -1,6 +1,5 @@
 export const techStack = [
   "React",
-  "MaterialUI",
   "Redux",
   "Node",
   "Express",
@@ -11,4 +10,6 @@ export const techStack = [
   "REST API",
   "HTML",
   "CSS",
+  "MaterialUI",
+  "Tailwind CSS",
 ];

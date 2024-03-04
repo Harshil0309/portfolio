@@ -12,6 +12,8 @@
 .home{
     background-color: black;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .img{
@@ -36,6 +38,9 @@
 }
 .mobile-img{
     border: none;
+}
+.exp-page{
+    margin-top: 10%;
 }
 
 
@@ -80,7 +85,11 @@
         width: 150px;
         background-image: url(../../../public/profile3-removebg-preview.png);
         background-repeat: no-repeat;
-       
+       border: none;
+    }
+
+    .exp-page{
+        margin-top: 70vh;
     }
     
 }

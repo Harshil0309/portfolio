@@ -1,3 +1,7 @@
+.proj-page{
+    /* border: 2px solid red; */
+    padding-right: 30px;
+}
 .project-list-item{
     border: 1px solid grey;
     width: 70%;
@@ -55,9 +59,10 @@
         translate: -15px;
     }
     .project-list{
-        /* border: 1px solid red; */
-        padding-right: 30px;
-        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
 
     }
 }
