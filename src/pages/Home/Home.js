@@ -84,7 +84,7 @@ const Home = () => {
                 style={{ background: "red" }}
                 rel="noreferrer"
                 target="_blank"
-                href="https://resume-bucket-03.s3.ap-south-1.amazonaws.com/Harshil_Gupta_Resume.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmFwLXNvdXRoLTEiRjBEAiBGDaBYugGyuJt1jvvMUSf9G7c5VrNalWzy9VV0I6puDgIgRATv5rBLjlOleG%2BOGGFPxUmwSmtk0Itkqj9w%2B4u4qM0q7QIIk%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw0NDY4NTczMDQ2MDkiDEHwOiFzo9%2FYhZXhdSrBAiWdFXyBxz8lxXXypqO%2BlhClCD29ViZ%2BgROH6DpW9WizYsONQyr6alivqgzUAaI9nBcfNqxAPrBn2Lic9ooSvb3bYr5igoYrhQk76Zcajj3e2io3ScuTGbOcbGnjB%2Fnc12MRh%2FV9HYa%2Ba5HNs7N%2FuF37v7TRro88yhmiHnkIDFpfgVR%2BLKzHhyiaDD1VhhUPuqEXDR5ct6blAIPw%2BSRc%2FhnfTyYmhcy4k16ptoMwQGuIxhLAxdCpqvO4HKAjpLGpYiXD%2FnCH9usZYLMYWDgvDVGaOegj0wPBn09yJ6c63hRKMl95WNWEZSXpMEPd%2Fo%2FbWO3RHOdBhFjkrvunALpYBnt94NDOA6erV1h18Tvt55a%2Fjz33rmbSlJtrmakGjWS7BaXCED1Mz7NxkVzJasAaQIFrzyy%2BwudWWc6Sez2C9BGd3TDUn9KvBjq0AtNS8Em%2FJfsH5Idjnh%2FHvP7Vpp8NF13SM%2BjDJSFApgN4lz51JRtU%2FMgyi0edLP4a6%2BY1wcV%2BATJprBZT2pNjOuzvvszAwoesPiiz91asEOHf2v0wx21QlhzW4n3d39uZPK2ySBs2lF1w6P%2B7zh5E%2FnLHu%2BDzCoumsp8I2G05CT4XvSri53c3x0Rf7UWED3ghhCA1ACdDQrKDE%2FjVroTTMsZNUVoUEwIgwgD8JQ6vNKcgvw0Xf9nk3gCFwwa0N8HEuKm%2BLVE38T8Fu2lYC26F5RGIstozVCkLGRPYu0Tp%2BXUjmXPBGG1rAwpAZs2H5nPJmtUbXYrJOWPOGpF7mSQ5%2F9xRGj8nfHdVcRtOh6gH%2BRZau1hAnrPbm%2BarDJgPREa71KCwcYFKLsZL9fzpqbTGY5NbythA&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240315T181738Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAWQCWFLIQR6Q7ZKF7%2F20240315%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=c2ac01d7723ef855bd2f110482e98532ed7050b227bf9b64012303d31e86ca56"
+                href="https://file.io/jklw5sPk8fDs"
               >
                 Download CV
               </Button>
@@ -111,7 +111,7 @@ const Home = () => {
                 }}
                 rel="noreferrer"
                 target="_blank"
-                href="https://resume-bucket-03.s3.ap-south-1.amazonaws.com/Harshil_Gupta_Resume.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmFwLXNvdXRoLTEiRjBEAiBGDaBYugGyuJt1jvvMUSf9G7c5VrNalWzy9VV0I6puDgIgRATv5rBLjlOleG%2BOGGFPxUmwSmtk0Itkqj9w%2B4u4qM0q7QIIk%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw0NDY4NTczMDQ2MDkiDEHwOiFzo9%2FYhZXhdSrBAiWdFXyBxz8lxXXypqO%2BlhClCD29ViZ%2BgROH6DpW9WizYsONQyr6alivqgzUAaI9nBcfNqxAPrBn2Lic9ooSvb3bYr5igoYrhQk76Zcajj3e2io3ScuTGbOcbGnjB%2Fnc12MRh%2FV9HYa%2Ba5HNs7N%2FuF37v7TRro88yhmiHnkIDFpfgVR%2BLKzHhyiaDD1VhhUPuqEXDR5ct6blAIPw%2BSRc%2FhnfTyYmhcy4k16ptoMwQGuIxhLAxdCpqvO4HKAjpLGpYiXD%2FnCH9usZYLMYWDgvDVGaOegj0wPBn09yJ6c63hRKMl95WNWEZSXpMEPd%2Fo%2FbWO3RHOdBhFjkrvunALpYBnt94NDOA6erV1h18Tvt55a%2Fjz33rmbSlJtrmakGjWS7BaXCED1Mz7NxkVzJasAaQIFrzyy%2BwudWWc6Sez2C9BGd3TDUn9KvBjq0AtNS8Em%2FJfsH5Idjnh%2FHvP7Vpp8NF13SM%2BjDJSFApgN4lz51JRtU%2FMgyi0edLP4a6%2BY1wcV%2BATJprBZT2pNjOuzvvszAwoesPiiz91asEOHf2v0wx21QlhzW4n3d39uZPK2ySBs2lF1w6P%2B7zh5E%2FnLHu%2BDzCoumsp8I2G05CT4XvSri53c3x0Rf7UWED3ghhCA1ACdDQrKDE%2FjVroTTMsZNUVoUEwIgwgD8JQ6vNKcgvw0Xf9nk3gCFwwa0N8HEuKm%2BLVE38T8Fu2lYC26F5RGIstozVCkLGRPYu0Tp%2BXUjmXPBGG1rAwpAZs2H5nPJmtUbXYrJOWPOGpF7mSQ5%2F9xRGj8nfHdVcRtOh6gH%2BRZau1hAnrPbm%2BarDJgPREa71KCwcYFKLsZL9fzpqbTGY5NbythA&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240315T181738Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAWQCWFLIQR6Q7ZKF7%2F20240315%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=c2ac01d7723ef855bd2f110482e98532ed7050b227bf9b64012303d31e86ca56"
+                href="https://file.io/jklw5sPk8fDs"
               >
                 Resume
               </Button>
@@ -187,8 +187,7 @@ const Home = () => {
         style={{ backgroundColor: "black" }}
       >
         <div className="project-main">
-          <h2
-            className="proj-head"
+          <h2 className="proj-head"
             style={{ color: "white", textAlign: "center", paddingTop: "40px" }}
           >
             Projects
