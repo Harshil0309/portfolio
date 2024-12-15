@@ -1,11 +1,12 @@
 export const techStack = [
   "React",
   "Redux",
-  "Node",
+  "NodeJS",
   "Express",
   "MongoDB",
   "SQL",
   "Javascript",
+  "Python",
   "GitHub",
   "REST API",
   "HTML",
