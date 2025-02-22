@@ -111,7 +111,7 @@ const Home = () => {
                 }}
                 rel="noreferrer"
                 target="_blank"
-                href="https://file.io/jklw5sPk8fDs"
+                href="https://limewire.com/d/3c1fe9ed-9f5f-4134-b4a7-d6ed6d846438#gnTRpdT6999ndVTG5JDyvEEVCMvfljZ4EBLxNhxNfpQ"
               >
                 Resume
               </Button>
@@ -187,7 +187,8 @@ const Home = () => {
         style={{ backgroundColor: "black" }}
       >
         <div className="project-main">
-          <h2 className="proj-head"
+          <h2
+            className="proj-head"
             style={{ color: "white", textAlign: "center", paddingTop: "40px" }}
           >
             Projects

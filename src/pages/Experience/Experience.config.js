@@ -5,12 +5,13 @@ export const workHistory = [
     role: "Software Developer",
     company: "Deloitte",
     descriptions: [
-      "Leveraged React-Redux bindings for efficient state management.",
-      "Employed middleware to handle asynchronous operations and side effects.",
-      "Used media queries to improve user experience on different devices, leading to a significant 30% boost in website visits.",
+      "Developed advanced form logic and conditional branching, allowing dynamic question flow based on user responses.",
+      "Managed real-time response tracking and leaderboard generation, enhancing participant engagement.",
+      "Engineered a custom routing feature, boosting revenue by 20%.",
+      "Handled deployment and testing of the competition platform, ensuring a smooth launch and scalability.",
     ],
 
-    skills: `React, Javascript, Python, NodeJS, SQL, CSS`,
+    skills: `ReactJS, TypeScript, Python, NodeJS, PostgreSQL`,
   },
   {
     from: "November 2022 ",
