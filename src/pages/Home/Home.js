@@ -84,7 +84,7 @@ const Home = () => {
                 style={{ background: "red" }}
                 rel="noreferrer"
                 target="_blank"
-                href="https://file.io/jklw5sPk8fDs"
+                href="https://limewire.com/d/3c1fe9ed-9f5f-4134-b4a7-d6ed6d846438#gnTRpdT6999ndVTG5JDyvEEVCMvfljZ4EBLxNhxNfpQ"
               >
                 Download CV
               </Button>
