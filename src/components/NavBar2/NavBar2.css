@@ -58,3 +58,14 @@
     right: 35px;
     }
   }
+
+  /* Width-based adjustments */
+  @media (max-width:900px){
+    .overlay a{font-size:28px}
+    .menu-button{width:auto;margin-left:6px}
+  }
+
+  @media (max-width:480px){
+    .overlay a{font-size:20px;padding:6px}
+    .overlay .closebtn{font-size:36px;right:20px}
+  }

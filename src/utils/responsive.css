@@ -1,0 +1,66 @@
+/* Global responsive utilities and breakpoints (mobile-first) */
+:root{
+  --max-site-width:1200px;
+  --gutter:1rem;
+  --font-scale: 1rem; /* base font-size, can be scaled with media queries */
+}
+
+/* Make images and media scale */
+img, .mobile-img, .profile-img{ max-width:100%; height:auto; display:block; }
+
+/* Container helper */
+.container{
+  width:100%;
+  max-width:var(--max-site-width);
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:var(--gutter);
+  padding-right:var(--gutter);
+  box-sizing:border-box;
+}
+
+/* Fluid typography */
+html{font-size:var(--font-scale);}
+
+/* Common responsive helpers */
+.flex{display:flex;}
+.flex-col{display:flex;flex-direction:column}
+.flex-wrap{flex-wrap:wrap}
+.center{display:flex;align-items:center;justify-content:center}
+
+/* Breakpoints - mobile-first
+   small: up to 599px
+   medium: 600-899
+   large: 900-1199
+   xl: 1200px and up
+*/
+
+@media (max-width:599px){
+  :root{--font-scale:0.95rem}
+  /* compact nav buttons */
+  .menu-button{width:auto;padding:0.5rem 0.75rem;font-size:0.95rem}
+}
+
+@media (min-width:600px) and (max-width:899px){
+  :root{--font-scale:1rem}
+}
+
+@media (min-width:900px) and (max-width:1199px){
+  :root{--font-scale:1.05rem}
+}
+
+@media (min-width:1200px){
+  :root{--font-scale:1.1rem}
+}
+
+/* Useful small-screen overrides */
+@media (max-width:900px){
+  /* ensure full-width containers on small screens */
+  .container{padding-left:1rem;padding-right:1rem}
+  body{word-break:break-word}
+}
+
+/* Accessibility: limit huge animations on small screens */
+@media (max-width:600px){
+  *{transition:none !important}
+}

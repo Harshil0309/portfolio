@@ -9,7 +9,7 @@ export const projects = [
     skills:
       " ReactJS, MongoDB, ExpressJS, NodeJS, API, Authentication, Authorization",
     github: "https://github.com/Harshil0309/Car-Rental-Website",
-    live: "https://angry-tam-pig.cyclic.app",
+    // live: "https://angry-tam-pig.cyclic.app",
   },
   {
     title: " Google Chrome Extension - Youtube Timestamp",
@@ -20,7 +20,7 @@ export const projects = [
     ],
     skills: " HTML, JavaScript, Chrome Extension, API",
     github: "https://github.com/Harshil0309/YT-Timestamp-Extension",
-    live: "https://github.com/Harshil0309/YT-Timestamp-Extension",
+    // live: "https://github.com/Harshil0309/YT-Timestamp-Extension",
   },
   {
     title: "BingeFlix",
@@ -31,6 +31,6 @@ export const projects = [
     ],
     skills: "  ReactJS, CSS, API",
     github: "https://github.com/Harshil0309/BingeFlix",
-    live: "https://binge-flix-two.vercel.app/",
+    live: "https://binge-flix-n7wf5egif-harshil0309s-projects.vercel.app/",
   },
 ];

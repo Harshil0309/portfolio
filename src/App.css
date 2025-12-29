@@ -24,6 +24,11 @@
   color: white;
 }
 
+@media (max-width:600px){
+  .App-logo{height:22vmin}
+  .App-header{padding:1rem 0;font-size:calc(9px + 1.2vmin)}
+}
+
 .App-link {
   color: #61dafb;
 }

@@ -36,3 +36,20 @@
 .download:hover{
     background-color: green !important;
 }
+
+/* Responsive adjustments for navbar items */
+@media (max-width:900px){
+    .portfolio, .skill, .experience, .projects, .contact, .download{
+        padding:6px 10px;
+        font-size:0.95rem;
+        margin:0 4px;
+    }
+}
+
+@media (max-width:480px){
+    .portfolio, .skill, .experience, .projects, .contact, .download{
+        padding:5px 8px;
+        font-size:0.85rem;
+        border-radius:28px !important;
+    }
+}

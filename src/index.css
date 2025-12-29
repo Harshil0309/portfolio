@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Make sizing predictable */
+*, *::before, *::after{box-sizing:border-box}
+
+/* Slightly adjust base font-size for very small screens */
+@media (max-width:480px){
+  html{font-size:0.95rem}
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -1,6 +1,6 @@
 import "./Home.css";
 import React from "react";
-import Device from "../../utils/Device.js";
+// import Device from "../../utils/Device.js";
 import { useMediaQuery } from "react-responsive";
 import { techStack } from "../Skills/Skills.config.js";
 import { workHistory } from "../Experience/Experience.config.js";
@@ -82,11 +82,11 @@ const Home = () => {
                 className="download"
                 color="inherit"
                 style={{ background: "red" }}
-                rel="noreferrer"
-                target="_blank"
-                href="https://limewire.com/d/3c1fe9ed-9f5f-4134-b4a7-d6ed6d846438#gnTRpdT6999ndVTG5JDyvEEVCMvfljZ4EBLxNhxNfpQ"
+                component="a"
+                href="/resume.pdf"
+                download
               >
-                Download CV
+                Resume ⤓
               </Button>
             </Toolbar>
           </Toolbar>
@@ -109,9 +109,9 @@ const Home = () => {
                   border: "1px solid grey",
                   margin: "10px",
                 }}
-                rel="noreferrer"
-                target="_blank"
-                href="https://limewire.com/d/3c1fe9ed-9f5f-4134-b4a7-d6ed6d846438#gnTRpdT6999ndVTG5JDyvEEVCMvfljZ4EBLxNhxNfpQ"
+                component="a"
+                href="/resume.pdf"
+                download
               >
                 Resume
               </Button>
@@ -218,14 +218,16 @@ const Home = () => {
                     >
                       Github
                     </a>
-                    <a
-                      className="link-item"
-                      rel="noreferrer"
-                      target="_blank"
-                      href={live}
-                    >
-                      Live
-                    </a>
+                    {live && (
+                      <a
+                        className="link-item"
+                        rel="noreferrer"
+                        target="_blank"
+                        href={live}
+                      >
+                        Live
+                      </a>
+                    )}
                   </div>
                 </li>
               );

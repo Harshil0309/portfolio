@@ -85,11 +85,11 @@ const NavBar = () => {
             className="download"
             color="inherit"
             style={{ background: "red" }}
-            rel="noreferrer"
-            target="_blank"
-            href="https://file.io/QzpzDhs437Bk"
+            component="a"
+            href="/resume.pdf"
+            download
           >
-            Download CV
+            Resume
           </Button>
         </Toolbar>
       </Toolbar>

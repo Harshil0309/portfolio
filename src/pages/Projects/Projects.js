@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../../components/NavBar";
+// import NavBar from "../../components/NavBar";
 import { projects } from "./Projects.config";
 import "./Projects.css";
 import Device from "../../utils/Device";
@@ -26,8 +26,10 @@ const Project = () => {
         <ul className="project-list">
           {projects.map((project, index) => {
             const { title, descriptions, skills, github, live } = project;
+            // console.log(project);
             return (
               <li className="project-list-item" key={index}>
+                <h6>{project}</h6>
                 <h3 className="title">{title}</h3>
                 <ul className="desc-list">
                   {descriptions.map((desc, index) => {
@@ -48,14 +50,16 @@ const Project = () => {
                   >
                     Github
                   </a>
-                  <a
-                    className="link-item"
-                    rel="noreferrer"
-                    target="_blank"
-                    href={live}
-                  >
-                    Live
-                  </a>
+                  {live && (
+                    <a
+                      className="link-item"
+                      rel="noreferrer"
+                      target="_blank"
+                      href={live}
+                    >
+                      Live
+                    </a>
+                  )}
                 </div>
               </li>
             );

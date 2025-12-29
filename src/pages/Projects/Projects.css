@@ -4,10 +4,11 @@
 }
 .project-list-item{
     border: 1px solid grey;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 30px;
+    width:100%;
+    max-width:900px;
+    margin: 30px auto 0 auto;
+    padding:1rem;
+    box-sizing:border-box;
 }
 .project-list-item:hover{
     border: 1px solid peachpuff;
@@ -45,27 +46,12 @@
   }
   
 @media (max-width:900px){
-   
-    .project-list-item{
-        /* border: 1px solid red; */
-        padding-right: 10px;
-        /* margin-right: 5px    ; */
-        width: 90%;
-    }
-    .proj-page{
-        overflow: hidden;
-    }
-    .project-links{
-        flex-direction: column;
-        /* border: 1px solid red; */
-        padding: 0px;
-        translate: -15px;
-    }
-    .project-list{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+    .project-list-item{width:100%;padding:0.75rem}
+    .proj-page{overflow:hidden;padding:0 1rem}
+    .project-links{flex-direction:column;gap:0.5rem;padding:0}
+    .project-list{display:flex;flex-direction:column;align-items:center}
+}
 
-    }
+@media (max-width:480px){
+    .project-list-item{padding:0.5rem;margin-top:20px}
 }
